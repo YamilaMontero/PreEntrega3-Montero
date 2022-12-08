@@ -4,7 +4,7 @@
 }
 
 .colornav {
-  background-color: rgba(189, 10, 120, 0.425);
+  background-color: rgba(228, 110, 182, 0.384);
 }
 
 .btn-outline-success {
@@ -43,14 +43,9 @@
   color: #fff;
 }
 
-.hero {
-  min-height: 100vh;
-  position: relative;
-}
-
 .card1 {
   width: 270px;
-  height: 540px;
+  height: 500px;
   border-radius: 4px;
   background: -webkit-linear-gradient(to right, #ffc0cb, rgba(128, 0, 128, 0.2392156863)), url(../imagenes/female.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background: linear-gradient(to right, #ffc0cb, rgba(128, 0, 128, 0.1843137255)), url(../imagenes/female.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -98,13 +93,25 @@
   padding-left: 8px;
 }
 
-.video {
+.fondo video {
+  z-index: -2;
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.video :before {
+  z-index: 777;
+  content: "";
+  position: absolute;
+  background: rgba(100, 34, 75, 0.712);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
 }
 
 .btn-wsp {
