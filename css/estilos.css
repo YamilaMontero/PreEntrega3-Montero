@@ -43,6 +43,11 @@
   color: #fff;
 }
 
+.hero {
+  min-height: 100vh;
+  position: relative;
+}
+
 .card1 {
   width: 270px;
   height: 540px;
@@ -51,7 +56,6 @@
   background: linear-gradient(to right, #ffc0cb, rgba(128, 0, 128, 0.3843137255)), url(../imagenes/female.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   display: flex;
   gap: 5px;
-  padding: 0;
 }
 
 .card1 p {
@@ -93,13 +97,7 @@
   padding-left: 8px;
 }
 
-.hero {
-  min-height: 100vh;
-  position: relative;
-}
-
 .video {
-  z-index: -1;
   position: absolute;
   top: 0;
   left: 0;
