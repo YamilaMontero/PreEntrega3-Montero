@@ -52,8 +52,8 @@
   width: 270px;
   height: 540px;
   border-radius: 4px;
-  background: -webkit-linear-gradient(to right, #ffc0cb, rgba(128, 0, 128, 0.3843137255)), url(../imagenes/female.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background: linear-gradient(to right, #ffc0cb, rgba(128, 0, 128, 0.3843137255)), url(../imagenes/female.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(to right, #ffc0cb, rgba(128, 0, 128, 0.2392156863)), url(../imagenes/female.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, #ffc0cb, rgba(128, 0, 128, 0.1843137255)), url(../imagenes/female.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   display: flex;
   gap: 5px;
 }
@@ -65,7 +65,7 @@
   cursor: pointer;
   border-radius: 2px;
   transition: all 0.5s;
-  background: rgba(139, 10, 179, 0.1019607843);
+  background: rgba(147, 128, 151, 0.1019607843);
   border: 1px solid #ff5a91;
   display: flex;
   justify-content: center;
@@ -75,8 +75,9 @@
   flex: 4;
 }
 .card1 p a {
-  color: #800080;
+  color: #740774;
   text-decoration: none;
+  font-weight: bold;
 }
 
 .card1 a {
