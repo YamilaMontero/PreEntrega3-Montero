@@ -111,7 +111,7 @@
   .fondo video{
 
     z-index: -2;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -127,7 +127,7 @@
     position: absolute;
     background: rgba(100, 34, 75, 0.041);
     width: 100%;
-    height: 100%;
+    height: 150%;
     top: 0;
     left: 0;
     z-index: -1;
@@ -169,8 +169,8 @@
 
 
   .footer{
-	background-color: #7d0f8b41;
-    padding: 70px 0;
+	background-color: rgb(223 151 196 / 83%);
+    padding: 130px 0;
     .footer-col{
         width: 25%;
         padding: 0 15px 0;
