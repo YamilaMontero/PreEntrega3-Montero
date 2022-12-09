@@ -45,7 +45,7 @@
 
 .card1 {
   width: 270px;
-  height: 500px;
+  height: 540px;
   border-radius: 4px;
   background: -webkit-linear-gradient(to right, #ffc0cb, rgba(128, 0, 128, 0.2392156863)), url(../imagenes/female.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background: linear-gradient(to right, #ffc0cb, rgba(128, 0, 128, 0.1843137255)), url(../imagenes/female.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
